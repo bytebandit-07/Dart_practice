@@ -19,12 +19,12 @@ void main(){
   print('After . addremove(): $players\n');
   //.removeAt
   players.removeAt(7);
-  print('After . addremove(): $players\n');
+  print('After . addremoveAt(): $players\n');
   //.length
   print('Number of players: ${players.length}\n');
   //.cotains()
-  print('is baber is still in List: ${players.contains("babar")}\n');  
+  print('is Babar is still in List: ${players.contains("Babar")}\n');  
   //.clear
   players.clear();
-  print("After clear(): $players\n")
+  print("After clear(): $players\n");
 }
