@@ -4,7 +4,7 @@ List<String> students = ['ali', 'umer', 'hamza', 'fawad'];
 print(students[1]);
 
 List<int> numbers = [123, 4342, 232, 2321];
-print(students[3]);
+print(numbers[3]);
 
 //empty lists
 var seats = List.filled(4, 'Empty Seat');
