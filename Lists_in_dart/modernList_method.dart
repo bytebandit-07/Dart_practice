@@ -34,6 +34,12 @@ void main(){
 
   // firstWhere() & lastWhere() → find specific element
   print('firstWhere() & lastWhere():');
-  
+  String firstA = students.firstWhere((n) => n.startsWith('A'),
+    orElse: () => 'no name found');
+  String lastA = students.lastWhere((n) => n.contains('a'),
+    orElse: () => 'No name found');
+  print('First starting with A: $firstA');
+  print('Last containing a: $lastA');
+
 
 }
