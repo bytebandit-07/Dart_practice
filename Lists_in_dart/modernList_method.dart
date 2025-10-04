@@ -29,5 +29,11 @@ void main(){
   
   //  every() → check if all match condition
   print('every():');
+  bool allHaveA = students.every((n) => n.contains('a'));
+  print('Do all names contain "a"? $allHaveA\n');
+
+  // firstWhere() & lastWhere() → find specific element
+  print('firstWhere() & lastWhere():');
+  
 
 }
